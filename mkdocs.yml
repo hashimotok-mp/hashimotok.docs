@@ -25,7 +25,7 @@ nav:
         - 寝落ち送り機能: cultivate/system/settings/sleep.md
         - BotVC入退室時VC人数変更機能: cultivate/system/settings/bot_vc_limit.md
   - Activate:
-  - トップページ: activate/index.md
+      - トップページ: activate/index.md
 
 plugins:
   # ファイル構造が複雑な場合に、目次自動生成などで役立つプラグイン
