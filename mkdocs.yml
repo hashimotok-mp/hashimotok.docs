@@ -1,5 +1,5 @@
 site_name: K's Bot Documentation
-site_url: https://hashimotok-ecsv.github.io/hashimotok.docs/
+site_url: https://hashimotok-mp.github.io/hashimotok.docs/
 
 # 重要な修正: ドキュメントのソースフォルダを明示的に子ディレクトリに指定
 # 💡 リポジトリのルート直下にあるドキュメントファイルを全てこのフォルダに移動してください。
@@ -24,7 +24,8 @@ nav:
         - 使い方: cultivate/system/setting_panel.md
         - 寝落ち送り機能: cultivate/system/settings/sleep.md
         - BotVC入退室時VC人数変更機能: cultivate/system/settings/bot_vc_limit.md
-  # 他のリポジトリが増えたら追記
+  - Activate:
+  - トップページ: activate/index.md
 
 plugins:
   # ファイル構造が複雑な場合に、目次自動生成などで役立つプラグイン
