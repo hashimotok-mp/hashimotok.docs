@@ -12,6 +12,7 @@
 | embed_color | 埋め込みの色(任意) |
 
 ## メッセージ編集(edit_message)
-### 例```?edit_message &message_id=1234567890 &content=新しい本文```
+### 例
+```?edit_message &message_id=1234567890 &content=新しい本文```
 ### パラメータ
 パラメータはメッセージ投稿と同様ですが、message_idが必要になります。
