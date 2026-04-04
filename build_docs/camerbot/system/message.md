@@ -10,6 +10,7 @@
 | embed_title | 埋め込みのタイトル(任意) |
 | embed_description | 埋め込みの説明(任意) |
 | embed_color | 埋め込みの色(任意) |
+
 ## メッセージ編集(edit_message)
 ### 例```?edit_message &message_id=1234567890 &content=新しい本文```
 ### パラメータ
