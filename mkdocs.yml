@@ -27,9 +27,9 @@ nav:
   - Activate:
       - トップページ: activate/index.md
   - かめるぼっと:
-      - トップページ: camer_bot/index.md
-      - メッセージ機能: camer_bot/system/message.md
-      - ロールリアクション機能: camer_bot/system/role_panel.md
+      - トップページ: camerbot/index.md
+      - メッセージ機能: camerbot/system/message.md
+      - ロールリアクション機能: camerbot/system/role_panel.md
 
 plugins:
   # ファイル構造が複雑な場合に、目次自動生成などで役立つプラグイン
