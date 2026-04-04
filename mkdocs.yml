@@ -26,6 +26,10 @@ nav:
         - BotVC入退室時VC人数変更機能: cultivate/system/settings/bot_vc_limit.md
   - Activate:
       - トップページ: activate/index.md
+  - かめるぼっと:
+      - トップページ: camer_bot/index.md
+      - メッセージ機能: camer_bot/system/message.md
+      - ロールリアクション機能: camer_bot/system/role_panel.md
 
 plugins:
   # ファイル構造が複雑な場合に、目次自動生成などで役立つプラグイン
