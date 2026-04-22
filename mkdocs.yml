@@ -24,12 +24,14 @@ nav:
         - 使い方: cultivate/system/setting_panel.md
         - 寝落ち送り機能: cultivate/system/settings/sleep.md
         - BotVC入退室時VC人数変更機能: cultivate/system/settings/bot_vc_limit.md
-  - Activate:
-      - トップページ: activate/index.md
   - かめるぼっと:
       - トップページ: camerbot/index.md
       - メッセージ機能: camerbot/system/message.md
       - ロールリアクション機能: camerbot/system/role_panel.md
+  - Activate:
+      - トップページ: activate/index.md
+  - 兄弟Bot:
+      - トップページ: brobot/index.md
 
 plugins:
   # ファイル構造が複雑な場合に、目次自動生成などで役立つプラグイン
