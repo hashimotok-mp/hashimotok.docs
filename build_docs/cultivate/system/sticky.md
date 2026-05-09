@@ -9,7 +9,7 @@
 
 ## コマンド一覧
 ### 吊下げメッセージ設定
-- `!?sticky &count=5 &time=5 &name=送信者名 &icon=https://example.com/icon.png &content=本文（改行や空白OK） &embed_title=タイトル &embed_description=説明 &embed_color=#ff0000 &embed_footer=フッター文 &embed_thumbnail=https://example.com/thumb.png &embed_image=https://example.com/img.png &embed_author=著者名 &embed_url=https://example.com &embed_timestamp=true &silent=true`
+- `!?sticky &count=5 &time=5 &name=送信者名 &icon=https://example.com/icon.png &content=本文（改行や空白OK） &embed_title=タイトル &embed_description=説明 &embed_color=#ff0000 &embed_footer=フッター文 &embed_thumbnail=https://example.com/thumb.png &embed_image=https://example.com/img.png &embed_author=著者名 &embed_url=https://example.com &embed_timestamp=true &silent=true &no_mention=true &no_bot=true`
     - 指定チャンネルに吊下げメッセージを設定します。
     - `&count` : メッセージを送信するまでの通常メッセージ数 (デフォルト: 5)
     - `&time` : メッセージを送信するまでの時間 (秒) (デフォルト: 5)
@@ -28,6 +28,8 @@
     - `&embed_url` : 埋め込みメッセージURL (タイトルクリック時に開くリンク)
     - `&embed_timestamp` : 埋め込みメッセージにタイムスタンプを追加 (例: 2025/12/31 23:59:59)
     - `&silent` : メッセージ送信時の通知を非表示にする (true/false, デフォルト: false)
+    - `&no_mention` : メッセージ本文にメンションを含めてもメンション通知を送信しない (true/false, デフォルト: false)
+    - `&no_bot` : Botによるメッセージでメッセージを更新しない (true/false, デフォルト: false)
 ### 吊下げメッセージ削除
 - `!?unsticky`
     - 指定チャンネルの吊下げメッセージを削除します。
